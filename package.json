@@ -1,0 +1,39 @@
+{
+  "name": "multi-select",
+  "version": "1.0.0",
+  "homepage": "./",
+  "keywords": "multi-select, select, picker, vue",
+  "description": "多列下拉选择器",
+  "main": "dist/lib/multi-select.common.js",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lib": "vue-cli-service build --target lib --name multi-select --dest dist/lib src/index.ts",
+    "org": "npm config set registry https://registry.npmjs.org/",
+    "shell": "sh bash.sh",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "stylus-loader": "^3.0.2",
+    "vue": "^2.6.11",
+    "vue-class-component": "^7.2.6",
+    "vue-property-decorator": "^9.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^10.0.2",
+    "stylus": "^0.52.4",
+    "typescript": "~3.9.3",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 11",
+    "Android >= 4.0",
+    "iOS >= 8"
+  ]
+}
