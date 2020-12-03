@@ -1,5 +1,5 @@
 {
-  "name": "multi-select",
+  "name": "better-multi-select",
   "version": "1.0.0",
   "homepage": "./",
   "keywords": "multi-select, select, picker, vue",
@@ -11,7 +11,7 @@
     "lib": "vue-cli-service build --target lib --name multi-select --dest dist/lib src/index.ts",
     "org": "npm config set registry https://registry.npmjs.org/",
     "shell": "sh bash.sh",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "gh-pages": "^3.1.0",
