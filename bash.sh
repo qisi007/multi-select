@@ -18,19 +18,30 @@ git push --set-upstream origin $branch
 
 sleep 1s
 
-echo 代码已推送到远程分支，正在打包组件库...
+echo 代码已推送到远程分支
 
-
-npm run org
-
-npm login
-
-npm run lib
-
-echo 组件库打包完毕,正在发布,请稍等
+npm run build
 
 sleep 1s
 
-npm publish
+echo 已打包成静态文件，正在构建页面
+
+npm run deploy
+
+echo 已构建完成
+
+# echo 正在打包组件库...
+
+# npm run org
+
+# npm login
+
+# npm run lib
+
+# echo 组件库打包完毕,正在发布,请稍等
+
+# sleep 1s
+
+# npm publish
 
 

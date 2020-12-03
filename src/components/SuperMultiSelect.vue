@@ -58,9 +58,7 @@
 </template>
 <script lang='ts'>
 import { Vue, Component, Prop, Model, Emit } from "vue-property-decorator";
-@Component({
-  name: "multi-select",
-})
+@Component
 export default class SuperMultiSelect extends Vue {
   private selectShow: boolean = false;
   private activeIndex: number[] = [];
