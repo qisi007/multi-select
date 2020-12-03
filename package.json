@@ -1,6 +1,6 @@
 {
   "name": "better-multi-select",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "./",
   "keywords": "multi-select, select, picker, vue",
   "description": "多列下拉选择器",

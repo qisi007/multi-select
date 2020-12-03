@@ -12,7 +12,7 @@ git add .
 
 git commit -m "first commit"
 
-echo 当前版本号: $branch
+echo 当前分支: $branch
 
 git push --set-upstream origin $branch
 
