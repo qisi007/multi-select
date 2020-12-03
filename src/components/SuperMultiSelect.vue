@@ -61,7 +61,7 @@ import { Vue, Component, Prop, Model, Emit } from "vue-property-decorator";
 @Component({
   name: "multi-select",
 })
-export default class MultiSelect extends Vue {
+export default class SuperMultiSelect extends Vue {
   private selectShow: boolean = false;
   private activeIndex: number[] = [];
   private activeColumnIndex: number = -1;

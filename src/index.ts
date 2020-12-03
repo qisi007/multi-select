@@ -1,7 +1,7 @@
-import MultiSelect from "@/components/MultiSelect.vue";
+import SuperMultiSelect from "@/components/SuperMultiSelect.vue";
 
 const components = [
-    MultiSelect
+    SuperMultiSelect
 ]
 
 const install = ( Vue: any ) => {

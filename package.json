@@ -1,14 +1,20 @@
 {
-  "name": "better-multi-select",
-  "version": "1.0.1",
+  "name": "super-multi-select",
+  "version": "1.0.2",
   "homepage": "./",
-  "keywords": "multi-select, select, picker, vue",
+  "keywords": [
+    "super-multi-select",
+    "multi-select", 
+    "select", 
+    "picker", 
+    "vue"
+  ],
   "description": "多列下拉选择器",
-  "main": "dist/lib/multi-select.common.js",
+  "main": "dist/lib/super-multi-select.common.js",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lib": "vue-cli-service build --target lib --name multi-select --dest dist/lib src/index.ts",
+    "lib": "vue-cli-service build --target lib --name super-multi-select --dest dist/lib src/index.ts",
     "org": "npm config set registry https://registry.npmjs.org/",
     "shell": "sh bash.sh",
     "deploy": "gh-pages -d dist"

@@ -3,7 +3,7 @@
 ### 下载依赖
 
 ```
-npm i multi-select --save
+npm i super-multi-select --save
 ```
 <br/>
 
@@ -11,9 +11,9 @@ npm i multi-select --save
 
 ```
 import Vue from "vue";
-import multiSelect from "multi-select";
+import superMultiSelect from "super-multi-select";
 
-Vue.use(multiSelect);
+Vue.use(superMultiSelect);
 ```
 <br/>
 
@@ -37,10 +37,10 @@ disabled | boolean | true/false | false | 是否禁用
 ```
 <template>
   <div id="app" style="height: 2000px;">
-     <multi-select v-model="value"
+     <super-multi-select v-model="value"
                     :options="optionsData" 
                     :placeholder="placeholder">
-      </multi-select> 
+      </super-multi-select> 
   </div>
 </template>
 <script lang='ts'>
