@@ -74,7 +74,7 @@ export default class SuperMultiSelect extends Vue {
   @Prop({ default: [], required: true })
   options!: any;
 
-  @Prop()
+  @Prop({ default: '请选择'})
   placeholder?: string;
 
   @Prop({ default: false })
@@ -139,9 +139,9 @@ export default class SuperMultiSelect extends Vue {
     this.$set(this.saveChooseOption, optionIndex, item.label);
     this.$set(this.activeIndex, optionIndex, index);
     this.activeColumnIndex = optionIndex;
-    if (this.activeColumnIndex == this.options.length - 1) {
-      this.onSureChoose();
-    }
+    // if (this.activeColumnIndex == this.options.length - 1) {
+    //   this.onSureChoose();
+    // }
   }
 }
 </script>

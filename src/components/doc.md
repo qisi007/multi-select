@@ -19,8 +19,8 @@ Vue.use(superMultiSelect);
 
 属性 | 类型 | 可选值 | 默认值 | 描述
 -- | -- | -- | -- | --
-options | {label: string, value: string}[][] | - | [] | 选项数据
-placeholder | string | - | - | 默认提示
+options | {label: string, value: string}[][] | - | [] | 选项数据(二维数组)
+placeholder | string | - | '请选择' | 默认提示
 disabled | boolean | true/false | false | 是否禁用
 
 

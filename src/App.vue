@@ -17,7 +17,7 @@
 <script>
 import { Vue, Component } from "vue-property-decorator";
 import SuperMultiSelect from "./components/SuperMultiSelect.vue";
-import MdDocument from "./components/test.md";
+import MdDocument from "./components/doc.md";
 
 export default  {
     components: {
